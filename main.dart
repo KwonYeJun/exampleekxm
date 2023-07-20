@@ -12,6 +12,8 @@ main() {
   String? name = 'kyj';
   name = null;
   if (name != null) {
-    name.isNotEmpty;
+    print(name.isNotEmpty);
+  } else {
+    print('name is String');
   }
 }
